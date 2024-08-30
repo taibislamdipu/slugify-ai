@@ -25,7 +25,7 @@ export default function Home() {
 
           <div className="mb-4">
             <input
-              className="border p-2 w-full rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="border p-2 w-full text-black	rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
               type="text"
               placeholder="Enter text to generate slug"
               value={inputText}
@@ -36,7 +36,7 @@ export default function Home() {
 
           <div className="mb-4">
             <textarea
-              className="border p-2 w-full rounded bg-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="border p-2 w-full text-black rounded bg-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-500"
               rows="2"
               readOnly
               value={slug}
