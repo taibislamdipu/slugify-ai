@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.tb {
+  border: 1px solid red;
+}
+
+.tc {
+  background-color: rgb(254 202 202);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply text-white bg-contain bg-no-repeat bg-theme bg-[url("../public/bg/bg-grid.svg")];
+}
