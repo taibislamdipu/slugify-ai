@@ -30,6 +30,7 @@ export default function Home() {
               placeholder="Enter text to generate slug"
               value={inputText}
               onChange={handleInputChange}
+              autoFocus
             />
           </div>
 
@@ -51,15 +52,14 @@ export default function Home() {
           </button>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 py-20">
-          <div className="bg-gray-100 p-4">
-            <h2 className="text-2xl mb-2">
+        <div className="py-20">
+          <div className="bg-gray-100 p-8 rounded">
+            <h1 className="mb-4">
               World&apos;s First AI-Powered Slug Generator - Optimize Your URLs
               with Smart Technology
-            </h2>
-          </div>
-          <div className="bg-gray-100 p-4">
-            <p className="mb-4">
+            </h1>
+
+            <p className="">
               Discover the world&apos;s first AI-powered slug generator.
               Effortlessly create SEO-friendly, optimized URLs tailored to your
               content with cutting-edge AI technology. Enhance your
